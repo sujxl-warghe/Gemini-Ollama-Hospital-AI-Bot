@@ -1,0 +1,30 @@
+{
+  "name": "Health is Heaven Hospital",
+  "location": "Nagpur, Maharashtra",
+  "contact": {
+    "phone": "+91 xxxxxxx210",
+    "email": "info@HealthIsHeavenhospital.in"
+  },
+  "departments": [
+    {"name": "Dentist", "doctor": "Dr. Aakansha Patil"},
+    {"name": "Neurology", "doctor": "Dr. Priya Deshmukh"},
+    {"name": "Orthopedics", "doctor": "Dr. Rohan Kulkarni"},
+    {"name": "Pediatrics", "doctor": "Dr. Meera Iyer"}
+  ],
+  "timings": {
+    "OPD": "8:00 AM to 8:00 PM (Monday to Saturday)",
+    "Emergency": "24x7 Available"
+  },
+  "services": [
+    "24x7 Emergency Care",
+    "Diagnostic Lab",
+    "MRI and CT Scan",
+    "Pharmacy",
+    "Online Appointment Booking"
+  ],
+  "pricing": {
+    "consultation": "₹500 per visit",
+    "mri": "₹2500",
+    "blood_test": "₹400"
+  }
+}

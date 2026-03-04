@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0f172a;        /* dark navy */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FULL SCREEN CHAT CONTAINER */
+.chat-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header{
+  background: #1d4ed8;   /* royal blue */
+  color: white;
+  text-align: center;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* CHAT BODY */
+#chat-box{
+  flex: 1;
+  overflow-y: auto;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* MESSAGE BASE STYLE */
+.msg{
+  max-width: 80%;
+  padding: 12px 14px;
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+/* BOT MESSAGE — grey bubble */
+/* USER MESSAGE — LEFT side */
+.user-msg{
+  background: #1d4ed8;
+  color: white;
+  align-self: flex-start;
+}
+
+/* BOT MESSAGE — RIGHT side */
+.bot-msg{
+  background: #374151;
+  color: white;
+  align-self: flex-end;
+}
+
+
+/* INPUT BAR FIXED BOTTOM */
+form{
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  background: #020617;
+}
+
+#user-input{
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+button{
+  padding: 10px 18px;
+  border-radius: 12px;
+  border: none;
+  background: #1d4ed8;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+1) create environment (venv folder)
+  * python -m venv venv
+  * ./venv/Scripts/Activate
+
+2) to download all required packages
+  * pip install -r requirment.txt
+
+3) For running the app
+  * uvicorn main:app --reload

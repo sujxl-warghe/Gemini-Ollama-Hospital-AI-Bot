@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# ---- Virtual Environments ----
+venv/
+.env/
+.venv/
+ENV/
+env/
+env.bak/
+
+# ---- Environment Files ----
+*.env
+.env.*
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- SQLite DB (optional – keep local only) ----
+data/*.db
+
+# ---- Python build ----
+build/
+dist/
+*.egg-info/
+
+# ---- Cache ----
+.cache/
+.pytest_cache/
+
+# ---- FastAPI static compiled cache ----
+static/__pycache__/
