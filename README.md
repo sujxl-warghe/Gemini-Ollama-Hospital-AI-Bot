@@ -30,7 +30,7 @@ You can run **either model or both depending on your requirement.**
 ---
 
 # 📂 Project Structure
-
+```bash
 Hospital/
 Hospital-AI-Chatbot/
 │
@@ -48,36 +48,36 @@ Hospital-AI-Chatbot/
     ├── index.html         # Chatbot user interface
     ├── style.css          # UI styling
     └── script.js          # Frontend chat logic
-
+```
 ---
 
 # 🔐 Environment Setup
 
 Create a `.env` file in the root folder:
-
+```
 GOOGLE_API_KEY=your_real_key_here
-
+```
 
 ---
 
 # 📦 Install Dependencies
-
+```
 pip install -r requirements.txt
-
+```
 or install manually:
-
+```
 pip install fastapi uvicorn sqlalchemy python-dotenv google-genai requests
-
+```
 ---
 
 # 🚀 Run Gemini Chatbot (Cloud AI)
-
+```
 uvicorn app:app --reload
-
+```
 Open in browser:
-
+```
 http://127.0.0.1:8000
-
+```
 ---
 
 # 💻 Run Local Mistral Chatbot (Ollama)
@@ -86,13 +86,13 @@ Step 1 — Install Ollama
 https://ollama.ai
 
 Step 2 — Download Mistral model
-
+```
 ollama pull mistral
-
+```
 Step 3 — Run the API
-
+```
 uvicorn main:app --reload
-
+```
 ---
 
 # 🗄 Database
